@@ -1,0 +1,170 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    
+}
+
+#jumbotron{
+    background-image: linear-gradient(rgba(253, 253, 253, 0.1), rgba(253, 253, 253,1)),
+    url(assets/monas.jpg);
+    background-color: #f6f8f9;
+    background-position-y: 110%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding:15%;
+  
+}
+
+.titleZone{
+    text-align: center;
+    font-size: 180%;
+}
+
+.icon-loc{
+    width: 15%;
+}
+.indo-flag{
+    width: 8%;
+}
+
+.koordinat{
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    display: flex;
+    font-size: 75%;
+   
+}
+.lat, .lon{
+    flex-basis: 50%;
+   
+}
+
+main{
+    padding: 2%;
+}
+
+.icon-date, .icon-weather, .icon-humidity{
+    width: 12%;
+}
+.icon-suhu{
+    width: 15%;
+}
+ 
+ #outer{
+    width: 100%;
+     border: 1px solid whitesmoke;
+     background-color: #f6f8f9;
+     border-radius: 10px;
+        box-shadow:  20px 20px 60px #d1d3d4,
+         -20px -20px 60px #ffffff;
+     margin: auto;
+     margin-top: -15%;
+     height: 610px;
+     padding: 1%;
+
+ }
+#title{
+    border-bottom: 1px solid black;
+    padding-bottom: 1%;
+    font-size: 100%;
+    text-align: center;
+    
+}
+.card-wrapper{
+    overflow: scroll;
+     overflow-x: hidden;
+     height: 570px;
+}
+ .card{
+     display: flex;
+     flex-direction: row;
+     padding: 2%;
+     margin-bottom: 2%;
+     border-radius: 5px;
+     background: #ffffff;
+     font-size: 80%;
+}
+
+ .left,.right{
+     flex-basis: 50%;
+ }
+
+ footer{
+     text-align: center;
+ }
+
+ footer .icon-heart{
+     width: 5%;
+ }
+
+ 
+ 
+ 
+ /* -------------------------STYLE UNTUK TAMPILAN DEKSTOP------------------------------------ */
+
+@media(min-width:900px){
+    .titleZone{
+        text-align: center;
+        font-size: 400%;
+    }
+
+    .icon-loc{
+        width: 5%;
+    }
+    .indo-flag{
+        width: 2.5%;
+    }
+
+    .koordinat{
+        text-align: center;
+        margin: auto;
+        width: 40%;
+        display: flex;
+        font-size: unset;
+       
+    }
+    .lat, .lon{
+        flex-basis: 50%;
+       
+    }
+
+    main{
+        padding: 2%;
+    }
+    
+    .icon-date, .icon-weather, .icon-humidity{
+        width: 10%;
+    }
+    .icon-suhu{
+        width: 7%;
+    }
+     
+     #outer{
+        width: 80%;
+        border-radius: 20px;
+        height: 700px;
+         padding: 2%;
+    }
+    
+    #title{
+       font-size: 150%;
+        text-align: unset;
+    }
+     .card-wrapper{
+        height: 570px;
+    }
+ 
+     .card{
+         border-radius: 20px;
+         font-size: 110%;
+     }
+ 
+  
+
+     footer .icon-heart{
+         width: 1.5%;
+     }
+
+ 
+ }
